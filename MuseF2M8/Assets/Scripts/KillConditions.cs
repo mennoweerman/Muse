@@ -7,6 +7,9 @@ public class KillConditions : MonoBehaviour
 {
     private PlayerMovement movement;
     private Respawn kill;
+    private bool isInCollider;
+    public float killTimer;
+    public GameObject deathUI;
 
     void Start()
     {
@@ -14,12 +17,29 @@ public class KillConditions : MonoBehaviour
         movement = player.GetComponent<PlayerMovement>();
         kill = player.GetComponent<Respawn>();
     }
-    public void Respawn()
+    private void OnTriggerEnter(Collider collider)
     {
-        //SceneManager.LoadScene(0);
-        movement.controller.enabled = false;
-        kill.RespawnPlayer();
-        movement.controller.enabled = true;
+        StartCoroutine(KillTimer());
+        isInCollider = true;
+    }
 
+    private IEnumerator KillTimer()
+    {
+        print("Egg");
+        yield return new WaitForSeconds(killTimer);
+        if (isInCollider)
+        {
+            isInCollider = false;
+            //SceneManager.LoadScene(0);
+            movement.controller.enabled = false;
+            kill.RespawnPlayer();
+            movement.controller.enabled = true;
+            deathUI.SetActive(true);
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        isInCollider = false;
     }
 }
