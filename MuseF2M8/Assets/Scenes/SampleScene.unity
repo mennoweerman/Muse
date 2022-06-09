@@ -1808,8 +1808,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef51095ca202b14dbb010afee7bd085, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  killTimer: 0
-  deathUI: {fileID: 0}
+  killTimer: 0.5
+  deathUI: {fileID: 1923813232}
 --- !u!1 &2075644736
 GameObject:
   m_ObjectHideFlags: 0
