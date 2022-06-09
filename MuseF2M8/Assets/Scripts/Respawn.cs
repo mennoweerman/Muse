@@ -5,7 +5,7 @@ using UnityEngine;
 public class Respawn : MonoBehaviour
 {
     public Vector3 startPos;
-    public GameObject DeathUI;
+    public GameObject deathUI;
     public float deathUITimer;
     private void Start()
     {
@@ -21,7 +21,7 @@ public class Respawn : MonoBehaviour
     public void RespawnPlayer()
     {
         transform.position = startPos;
-        DeathUI.SetActive(true);
+        deathUI.SetActive(true);
         Debug.Log(transform.position);
         //gameObject.transform = startPos;
         StartCoroutine(DeathUITimer());
@@ -30,7 +30,7 @@ public class Respawn : MonoBehaviour
     private IEnumerator DeathUITimer()
     {
         yield return new WaitForSeconds(deathUITimer);
-        DeathUI.SetActive(false);
+        deathUI.SetActive(false);
     }
 
 }

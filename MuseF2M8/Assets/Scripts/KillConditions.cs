@@ -25,7 +25,6 @@ public class KillConditions : MonoBehaviour
 
     private IEnumerator KillTimer()
     {
-        print("Egg");
         yield return new WaitForSeconds(killTimer);
         if (isInCollider)
         {
