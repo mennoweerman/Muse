@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
 
 public class Respawn : MonoBehaviour
 {
     public Vector3 startPos;
-    public GameObject deathUI;
+    public GameObject UI;
     public float deathUITimer;
+    [HideInInspector] public VideoPlayer videoPlayer;
+
     private void Start()
     {
         startPos = transform.position;
@@ -21,7 +24,7 @@ public class Respawn : MonoBehaviour
     public void RespawnPlayer()
     {
         transform.position = startPos;
-        deathUI.SetActive(true);
+        UI.SetActive(true);
         Debug.Log(transform.position);
         //gameObject.transform = startPos;
         StartCoroutine(DeathUITimer());
@@ -30,7 +33,13 @@ public class Respawn : MonoBehaviour
     private IEnumerator DeathUITimer()
     {
         yield return new WaitForSeconds(deathUITimer);
-        deathUI.SetActive(false);
+        UI.SetActive(false);
+        FindObjectOfType<UIScript>().StartTimer(true);
+    }
+
+    public void DisableVideoPlayer()
+    {
+        videoPlayer.gameObject.SetActive(false);
     }
 
 }

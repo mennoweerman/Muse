@@ -1,21 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-
+using UnityEngine.Video;
 public class KillConditions : MonoBehaviour
 {
     private PlayerMovement movement;
     private Respawn kill;
     private bool isInCollider;
+    private Respawn respawnScript;
     public float killTimer;
-    public GameObject deathUI;
+    public GameObject deathCanvas;
+    public VideoPlayer deathUI;
+
 
     void Start()
     {
         GameObject player = GameObject.Find("Player");
         movement = player.GetComponent<PlayerMovement>();
         kill = player.GetComponent<Respawn>();
+        respawnScript = FindObjectOfType<Respawn>();
+        respawnScript.videoPlayer = deathUI;
     }
     private void OnTriggerEnter(Collider collider)
     {
@@ -33,7 +37,8 @@ public class KillConditions : MonoBehaviour
             movement.controller.enabled = false;
             kill.RespawnPlayer();
             movement.controller.enabled = true;
-            deathUI.SetActive(true);
+            deathCanvas.SetActive(true);
+            deathUI.Play();
         }
     }
 
