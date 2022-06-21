@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
 
     private Vector3 moveDirection;
     private Vector3 velocity;
+    public GameObject model;
 
     [SerializeField] private bool isGrounded;
     [SerializeField] private float groundCheckDistance;
@@ -46,8 +47,8 @@ public class PlayerMovement : MonoBehaviour
 
         float moveZ = Input.GetAxis("Horizontal"); 
         float moveX = Input.GetAxis("Vertical");
-
         moveDirection = new Vector3(moveX, 0, moveZ);
+        model.transform.rotation = Quaternion.LookRotation(moveDirection);
 
         if (moveDirection != Vector3.zero && !Input.GetKey(KeyCode.LeftShift))
         {

@@ -12,9 +12,11 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] private float idleTime = 3;
     Animator animator;
 
+    [SerializeField] private GameObject pathForEnemy;
+
     void Start()
     {
-        _path = FindObjectOfType<Path>();
+        _path = pathForEnemy.GetComponent<Path>();
         animator = GetComponent<Animator>();
     }
 
