@@ -1,4 +1,3 @@
-
 ## The Missing Lesson
 Project team:
 ##### Artists: Amy, Megan, Myra, Suzan
@@ -8,7 +7,9 @@ Platform:
 Pc
 
 ### Korte omschrijving van de game
-...
+Het spel speelt zich af in een dystopische wereld waarin je speelt als een mens die probeert te overleven in een wereld waar je niet gezien mag worden.
+In het verhaal zijn er enemies te vinden met camera hoofden, als ze je zien ben je af
+De game heeft een spannende, bijna horror, ondertoon.
 
 ---
 #### Producten Werkproces 1
@@ -38,10 +39,10 @@ Pc
 | Logboek (pdf)                         | [Logboek]
 |<img width=500/>|<img width=300/>|
 
-   [Backlog]: <https://trello.com/b/hik72z4q/mythe-2019-voorbeeld-trello>
+   [Backlog]: https://trello.com/b/aMju81Nb/product-backlog
    [Logboek]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/logboek.pdf>
    [GameDesignDoc]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/GameDesignDoc.pdf>
    [RetrospectiveVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/RetrospectiveVerslagen.pdf>
    [ReviewVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/ReviewVerslagen.pdf>
    [Prototype]: <https://www.mijnmytheprototype.nl>
-   [Folder op teams]: <https://www.linknaarmijnfolderopteams.nl>
+   [Folder op teams]: <https://mediacollegeamsterdam.sharepoint.com/:f:/r/teams/C20-F3M8BO-Muse-Team05/Gedeelde%20documenten/Team%2005?csf=1&web=1&e=nSbxBZ>
