@@ -39,10 +39,10 @@ De game heeft een spannende, bijna horror, ondertoon.
 | Logboek (pdf)                         | [Logboek]
 |<img width=500/>|<img width=300/>|
 
-   [Backlog]: https://trello.com/b/aMju81Nb/product-backlog
-   [Logboek]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/logboek.pdf>
-   [GameDesignDoc]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/GameDesignDoc.pdf>
-   [RetrospectiveVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/RetrospectiveVerslagen.pdf>
-   [ReviewVerslagen]: <https://github.com/BerendWeij/agp_inlever_template/blob/master/producten/ReviewVerslagen.pdf>
+   [Backlog]: <https://trello.com/b/aMju81Nb/product-backlog>
+   [Logboek]: <https://mediacollegeamsterdam.sharepoint.com/:f:/r/teams/C20-F3M8BO-Muse-Team05/Gedeelde%20documenten/Team%2005/Logboek?csf=1&web=1&e=Pq0u8s>
+   [GameDesignDoc]: <https://mediacollegeamsterdam.sharepoint.com/:f:/r/teams/C20-F3M8BO-Muse-Team05/Gedeelde%20documenten/Team%2005/Game%20concept%20document?csf=1&web=1&e=itsoQB>
+   [RetrospectiveVerslagen]: <https://mediacollegeamsterdam.sharepoint.com/:f:/r/teams/C20-F3M8BO-Muse-Team05/Gedeelde%20documenten/Team%2005/Sprint%20retrospectives?csf=1&web=1&e=g4vh4V>
+   [ReviewVerslagen]: <https://mediacollegeamsterdam.sharepoint.com/:f:/r/teams/C20-F3M8BO-Muse-Team05/Gedeelde%20documenten/Team%2005/Sprint%20review%20verslagen?csf=1&web=1&e=VKtfSj>
    [Prototype]: <https://www.mijnmytheprototype.nl>
    [Folder op teams]: <https://mediacollegeamsterdam.sharepoint.com/:f:/r/teams/C20-F3M8BO-Muse-Team05/Gedeelde%20documenten/Team%2005?csf=1&web=1&e=nSbxBZ>
