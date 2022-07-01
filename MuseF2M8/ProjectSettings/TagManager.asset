@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Winbox
+  - Killbox
+  - UICanvas
+  - WinImage
+  - LoadingImage
+  - MainMenuImage
+  - DeathImage
   layers:
   - Default
   - TransparentFX

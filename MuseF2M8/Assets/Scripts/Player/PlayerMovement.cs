@@ -25,10 +25,13 @@ public class PlayerMovement : MonoBehaviour
 
     Animator animator;
 
+    [SerializeField] private GameObject animationModel;
+
     private void Start()
     {
         controller = GetComponent<CharacterController>();
-        animator = GetComponent<Animator>();
+        animator = animationModel.GetComponent<Animator>();
+        
     }
 
     private void Update()
