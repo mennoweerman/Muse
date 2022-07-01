@@ -40,9 +40,9 @@ De game heeft een spannende, bijna horror, ondertoon.
 |<img width=500/>|<img width=300/>|
 
    [Backlog]: <https://trello.com/b/aMju81Nb/product-backlog>
-   [Logboek]: <https://mediacollegeamsterdam.sharepoint.com/:f:/r/teams/C20-F3M8BO-Muse-Team05/Gedeelde%20documenten/Team%2005/Logboek?csf=1&web=1&e=Pq0u8s>
-   [GameDesignDoc]: <https://mediacollegeamsterdam.sharepoint.com/:f:/r/teams/C20-F3M8BO-Muse-Team05/Gedeelde%20documenten/Team%2005/Game%20concept%20document?csf=1&web=1&e=itsoQB>
-   [RetrospectiveVerslagen]: <https://mediacollegeamsterdam.sharepoint.com/:f:/r/teams/C20-F3M8BO-Muse-Team05/Gedeelde%20documenten/Team%2005/Sprint%20retrospectives?csf=1&web=1&e=g4vh4V>
-   [ReviewVerslagen]: <https://mediacollegeamsterdam.sharepoint.com/:f:/r/teams/C20-F3M8BO-Muse-Team05/Gedeelde%20documenten/Team%2005/Sprint%20review%20verslagen?csf=1&web=1&e=VKtfSj>
-   [Prototype]: <https://www.mijnmytheprototype.nl>
+   [Logboek]: <https://github.com/mennoweerman/Muse/blob/main/Documentatie/Logboek.zip>
+   [GameDesignDoc]: <https://github.com/mennoweerman/Muse/blob/main/Documentatie/Game%20Design%20Document%20Team%2005%20(the%20missing%20lesson)%20(1).pdf>
+   [RetrospectiveVerslagen]: <https://github.com/mennoweerman/Muse/blob/main/Documentatie/Project%20retrospective.pdf>
+   [ReviewVerslagen]: <https://github.com/mennoweerman/Muse/blob/main/Documentatie/Sprint%20Review%20verslagen.odt>
+   [Prototype]: <https://github.com/mennoweerman/Muse/blob/main/Documentatie/The%20Missing%20Lesson%20Game!.zip>
    [Folder op teams]: <https://mediacollegeamsterdam.sharepoint.com/:f:/r/teams/C20-F3M8BO-Muse-Team05/Gedeelde%20documenten/Team%2005?csf=1&web=1&e=nSbxBZ>
