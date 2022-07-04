@@ -41,7 +41,7 @@ De game heeft een spannende, bijna horror, ondertoon.
 
    [Backlog]: <https://trello.com/b/aMju81Nb/product-backlog>
    [Logboek]: <https://github.com/mennoweerman/Muse/blob/main/Documentatie/Logboek.zip>
-   [GameDesignDoc]: <https://github.com/mennoweerman/Muse/blob/main/Documentatie/Game%20Design%20Document%20Team%2005%20(the%20missing%20lesson)%20(1).pdf>
+   [GameDesignDoc]: <https://github.com/mennoweerman/Muse/blob/main/Documentatie/Game_Design_Document_Team_05_the_missing_lesson_02.pdf>
    [RetrospectiveVerslagen]: <https://github.com/mennoweerman/Muse/blob/main/Documentatie/Project%20retrospective.pdf>
    [ReviewVerslagen]: <https://github.com/mennoweerman/Muse/blob/main/Documentatie/Sprint%20Review%20verslagen.odt>
    [Prototype]: <https://github.com/mennoweerman/Muse/blob/main/Documentatie/The%20Missing%20Lesson%20Game!.zip>
