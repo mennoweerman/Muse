@@ -2,13 +2,13 @@
 Project team:
 ##### Artists: Amy, Megan, Myra, Suzan
 ##### Developers: Menno, George
-##### Rv'ers: Dunya Estelle, Angelina
+##### Rv'ers: Dunya, Estelle, Angelina
 Platform:
 Pc
 
 ### Korte omschrijving van de game
 Het spel speelt zich af in een dystopische wereld waarin je speelt als een mens die probeert te overleven in een wereld waar je niet gezien mag worden.
-In het verhaal zijn er enemies te vinden met camera hoofden, als ze je zien ben je af
+In het verhaal zijn er enemies te vinden met camera hoofden, als ze je zien ben je af.
 De game heeft een spannende, bijna horror, ondertoon.
 
 ---
